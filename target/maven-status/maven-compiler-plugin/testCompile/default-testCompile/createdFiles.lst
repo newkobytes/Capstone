@@ -1,0 +1,5 @@
+pages\loginPage.class
+StepDef_POM\LoginStepDef.class
+StepDef_POM\TestRunner.class
+pages\registerPage.class
+StepDef_POM\RegisterStepDef.class

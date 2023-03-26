@@ -1,0 +1,222 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-26T12:09:15.304Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2254000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef_POM.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "This scenario is to login the medicare application",
+        "description": "",
+        "id": "login-feature-scenario;this-scenario-is-to-login-the-medicare-application",
+        "after": [
+          {
+            "result": {
+              "duration": 411000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef_POM.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2111000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "StepDef_POM.RegisterStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2483000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Login button",
+            "match": {
+              "location": "StepDef_POM.LoginStepDef.i_click_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 614000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the valid Login credentials",
+            "match": {
+              "location": "StepDef_POM.LoginStepDef.i_enter_the_Login_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be successfully logged in",
+            "match": {
+              "location": "StepDef_POM.LoginStepDef.i_should_be_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature scenario",
+    "description": "",
+    "id": "login-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-26T12:09:23.276Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2014000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef_POM.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "This scenario is to register in the medicare application",
+        "description": "",
+        "id": "register-feature-scenario;this-scenario-is-to-register-in-the-medicare-application",
+        "after": [
+          {
+            "result": {
+              "duration": 177000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef_POM.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2379000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have launched the application",
+            "match": {
+              "location": "StepDef_POM.RegisterStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1087000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the SignUp button",
+            "match": {
+              "location": "StepDef_POM.RegisterStepDef.i_click_on_the_SignUp_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 301000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the User Details",
+            "match": {
+              "location": "StepDef_POM.RegisterStepDef.i_enter_the_User_Details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 934000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the Password details",
+            "match": {
+              "location": "StepDef_POM.RegisterStepDef.i_enter_the_Password_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1246000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the Address details",
+            "match": {
+              "location": "StepDef_POM.RegisterStepDef.i_enter_the_Address_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on confirm button",
+            "match": {
+              "location": "StepDef_POM.RegisterStepDef.i_click_on_confirm_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be registered as a medicare user",
+            "match": {
+              "location": "StepDef_POM.RegisterStepDef.i_should_be_registered_as_a_medicare_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register Feature Scenario",
+    "description": "",
+    "id": "register-feature-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/register.feature",
+    "tags": []
+  }
+]
